@@ -1,0 +1,17 @@
+# Introduction à la sécurité offensive 
+
+## Objectif
+-Sécurité offensive
+-Terminale
+-Méthode pour pirater une application
+## Commandes utilisées
+-dirb
+## Ce que j'ai compris
+Au cours de cette salle d'apprentissage de la notion de sécurité offensive j'ai compris qu'elle consiste à identifier les failles d'un réseau informatique par simulation d'attaque réel.
+Ainsi pour illuster cela j'ai eu au cours de cette salle l'opportunité de pirater sur une machine virtuelle mis à ma disposition par TryHackMe un compte bancaire par l'utilisation de l'outil dirb.
+Cet outil fonctionnant par l'approche par force brute verifie sur une url de base si elle présente des url secrètes ( fonctionnalités cachées ) en testant plusieurs mots clé afin de pouvoir effectuer des actions interdites à un utilisateur.
+Dans mon cas il s'agissait de faire un virement du compte d'un utilisateur lambda sur mon compte fictif.
+Donc j'ai envoyer comme commande textuelle à l'ordinateur à travers le terminale : dirb http://fakebank.thm
+Ce qui m'as permis de trouver les url secretes et ainsi d'effectuer le virement.
+## Application en entreprise 
+-Audit de sécurité interne ( supprimer ou protéger des ressources sensibles à une attaque par bruteforce )
