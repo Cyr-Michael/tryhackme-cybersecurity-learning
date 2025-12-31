@@ -1,0 +1,53 @@
+# Introduction à la sécurité défensive - TryHackMe
+
+## Objectifs
+Sécurité défensive : ce qu’elle implique, à quoi elle ressemble dans le monde réel, ainsi que les technologies mises en œuvre.
+## Concepts appris
+-Blue teaming
+-Sécurité défaillante
+-Domaine clé de la sécurité défensive
+-Constitution d'une équipe de sécurité
+-Principe de la défense multi-couche
+-SOC
+-SIEM (Security Information and events management) 
+-Détection d'attaque et mise en oeuvre d'actions de sécurité
+## Ce que j'ai compris
+Au cours de cette salle j'ai compris que la sécurité défensive (blue teaming) consiste non seulement à détecter des attaques et à mettre en oeuvre des actions de sécurité mais également faire une analyse régulière d'un réseau et mettre en place des mesures préventives  
+J'ai pu prendre connaissance de cas concrets de sécurité défaillante dans des organisations tel que : 
+-British airways (2018) : Données personelles de plusieurs clients divulgés
+-etc
+La sécurité défensive est divisée en six domaines clé :
+-Surveillance et détection
+-Intervention en cas d'incident
+-Renseignements sur les menaces
+-Gestion des vulnérabilités 
+-Enquête et analyse
+Pour assurer la bonne gestion de la sécurité informatique d'une organisation une équipe est mise en place.
+Cette équipe est constitué de :
+-Analyste SOC
+-Intervenant en cas d'attaque
+-Ingénieur sécurité
+-Expert en criminalité numérique
+Pour assurer une meilleure protection informatique les organisations mettent en place une sécurité à double couche :
+-Formation des employés 
+## Actions menées
+Au cours de cette salle j'ai eu à détecter une attaque de type énumération de répertoire qui avait pour cible le panneau d'administration de FakeBank la banque fictive dont j'avais la gestion.
+Après détection de cette menace j'ai mise en oeuvre une action de sécurité en suivant une procédure :
+-Blocage de la source de l'adress IP de l'attaque
+-Examiner les accès au panneau d'administration
+-Mettre en oeuvre la limitation du taux de demande pour les admin endpoints
+-Mise à jour des WAF rules
+-Système de détection d'intrusion
+-Mise en place de Pare-Feu
+-Politique de sécurité
+Une entreprise dispose d'un centre des opérations de sécurité (SOC) qui :
+-Analyse des alertes déclenchés par les outils de sécurité
+-Enquêtes sur les anomalies
+-Répondre aux incidents
+## Application en entreprise ( équipe SOC/BlueTeam)
+-Détection d'une tentative d'accès non autorisé à des ressources sensibles de l'entreprise  ( interfaces d’administration, endpoints internes)
+-Coopération entre les différentes équipes de sécurité de l'entrprise
+-Combinaison entre prévention et intervention brute pour éliminer les menaces et mettre en place des barrières plus performantes
+
+
+
