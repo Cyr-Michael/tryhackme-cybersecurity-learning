@@ -1,0 +1,42 @@
+# Le réseautage
+
+## Objectifs
+Apprentissage des bases d'un réseau informatique
+## Concepts appris
+-Réseau
+-Internet
+-Identification des appareils sur un réseau
+## Commande utilisées
+-ping
+## Ce que j'ai compris
+Pour faire simple un réseau est un ensemble d'appareils connecté entre eux et il existe deux type de réseau en informatique que sont : les réseaux privés et les réseaux publics.
+L'internet quand à lui est un ensemble de petits réseaux interconnectés.
+Ces petits réseaux sont appelés réseaux privés, et les réseaux qui les relient sont appelés réseaux publics ou Internet.
+Pour une bonne communication sur internet les appareils doivent être identifiables et s'identifier sur un réseau.
+Ainsi il existe deux moyens d'identification que sont :
+-l'adresse IP (Internet Protocol)
+-l'adresse MAC (Media Access Control)
+L'adresse IP sert à identifier un hôte sur un réseau pendant une période déterminée.
+Il existe également deux types d'adresse IP que sont : les adresse IP publiques (attribuées par les fournisseurs d'accès à internet) qui servent à identifier un appareil sur internet et les adresses IP privées qui servent à identifier un appareil parmis d'autres.
+Face à la pénuries d'adresse IP publique pour l'ancienne version  IPv4, une nouvelle version à vu le jour. La version IPv6 pouvant prendre en charge plus de 340 billions d'adresse IP.
+L'adresse MAC quand à elle représente l'interface réseau physique d'un appareil. Sa faiblesse se situe dans le fait qu'elle peut être falsifié.
+## Travaux Pratique
+Au cours de cette salle j'ai eu à modifier l'adresse MAC d'un appareil pour lui permettre de se faire passer pour un appareil ayant accès au site THM pour lui permettre d'avoir accès également.
+J'ai aussi eu la chance d'apprendre  et de tester dans un exercice pratique l'utilisation d'une nouvelle commande.
+La commande ping qui utilise des paquets ICMP (Internet Control Message Protocol) pour déterminer les performances d'une connexion entre des périphériques à travers la mesure du temps de propagation des paquets entre ces periphériques.
+## Application en entreprise
+-Analyse des flux du réseau de l'organisation
+-Gestion des accès réseau
+-Analyse d’incidents de sécurité
+-Détection d'activités suspectes
+-Identification de  l’origine d’une connexion ou d’une tentative d’intrusion
+
+L’exercice de modification d’adresse MAC illustre un cas réel de contournement des contrôles réseau, mettant en évidence l’importance de :
+Ne pas se fier uniquement à l’adresse MAC pour l’authentification
+Mettre en place des mécanismes de sécurité complémentaires 
+
+L’utilisation de la commande ping en entreprise pourrais servir à :
+Tester la disponibilité d’un hôte
+Diagnostiquer des problèmes de connectivité
+Mesurer la latence entre des équipements réseau                                                                                 
+                                                                                 
