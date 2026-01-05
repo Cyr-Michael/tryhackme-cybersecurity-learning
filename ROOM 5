@@ -1,0 +1,42 @@
+# INTRODUCTION AUX RÉSEAUX LOCAUX
+
+## Objectifs
+Découverte des technologies et conceptions qui alimentent les réseaux privés
+## Concepts appris
+-Architecture de réseau
+-Routing
+-Sous-réseautage
+-ARP : Address Resolution Protocol
+-Serveur DHCP (Dynamic Host Configuration Protocol)
+## Ce que j'ai compris
+Architecture d'un réseau est basé sur sa conception ou son apparence. En réseau on parle de topologie.
+Durant cette salle j'ai pris connaissance de l'existence de trois topologie que sont : 
+-la topologie en étoile : chaque appareil du réseau est connecté individuellement via un dispositif central tel qu'un commutateur ou un concentrateur
+-la topologie en bus : repose sur une liaison unique appelé câble principale
+et la topologie en anneau.
+Le routage (routing) désigne le processus de circulation des données à travers les réseaux via un routeur.
+Le sous-réseautage consiste à diviser un réseau en sous-réseaux plus petits, plus précisement c'est la catégorisation et l'affectation des parties spécifiques du réseau pour les différents services d'une organisation.
+Les sous-réseaux utilisent les adresses IP pour :
+-identifier l'adresse réseau ( identifie le début du réseau)
+-identifier l'adresse de l'hôte ( identifie un appareil)
+-identifier la passerelle par défaut
+l'ARP est une technologie permettant aux appareils de s'identifier sur un réseau. En effet il permet à un périphérique d'associer son adresse MAC à une adresse IP sur le réseau.
+Son fonctionnement est plutôt simple à comprendre. En effet lorsqu'un appareil cherche à en identifier un autre il envoie un paquets sur tous le réseau appelé ARP request, pour demander quel appareil est connecté à une adresse IP.
+L'appareil est question répond par un ARP reply pour signifié que c'est lui qui est connecté à cette adresse IP.
+Les serveurs DHCP servent à attribuer une adresse IP à un appareil qui se connecte sur le réseau si il n'en possède pas. Ce processus s'éffectue en quatres requêtes :
+-DHCP Discovber : requête envoyer par l'appareil au serveur pour vérifier la disponibilité d'adresse IP
+-DHCP Offer : Proposition d'adresse IP utilisable par le serveur
+-DHCP Request : Confirmation du choix par l'appareil
+-DHCP ACK : Confirmation de la réussite de l'opération
+## Travaux Pratiques
+Durant cette salle l'axercice pratique consistais à reconnaître une topologie, identifier sa faiblesse et ainsi compremettre un réseau entier.
+Pour un réseau avec une topologie en étoile j'ai eu à sectionner une partie du cable reliant les appareils et ainsi plus aucune données n'as pu circuler.
+Pour un réseau avec une topologie en bus, le simple fais de lancer plusieurs transfert de données simultanément à entrainer une surchauffe et ainsi le réseau entier à été compromis.
+Pour un réseau avec une topologie en étoile il suffisait d'endommager l'appareil centrale.
+## Application en entreprise
+Les notions abordées dans cette salle sont directement applicables dans un contexte professionnel, notamment en administration réseau, cybersécurité et SOC.
+Comme par exemple :
+-Conception des réseaux résilients et performants
+-Segmentation du réseau par service (RH, finance, IT, invités)
+-Automatiser l’attribution des adresses IP
+-ect..
