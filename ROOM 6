@@ -1,0 +1,28 @@
+# Modèle OSI (Open System Interconnection)
+
+
+## Objectifs
+Découverte du cadre de mise en réseau fondamental qui détermine les différentes étapes du traitement des données sur un réseau.
+
+## Concepts appris
+-Intêrets d'utilisation du modèle OSI
+-Principe de fonctionnement de ce dis modèle
+
+## Ce que j'ai compris
+De façon claire et simple le modèle OSI favorise la communication entre des appareils de conception et de fonction différentes au sein d'un même réseau.
+C'est à dire que des données transmises sur un réseau respectant ce modèle sont interprétables par tous les appareils.
+Ce modèle présente sept couches différentes qui appliquent des processus spécifiques à elles aux données lorsque celle-ci les traversent.
+Ces septs couches sont :
+7-Application : Définition des protocoles et règles déterminant comment l'utilisateur doit interagir avec les données.
+6-Presentation : Traduction des données pour permettre un même format d'affichage des données pour tout type de logiciels
+5-Session : Établissement et maintient de la connexion avec l'ordinateur destinataire par création d'une session.
+4-Transport : Transmission des données par l'utilisation de deux protocoles au choix : TCP(Transmission Control Protocol : fiable et sécurisé mais lent, utilisé pour le partage de fichiers, la navigation internet ou l'envoi de courriel), UDP(User Datagram Protocol : plus rapide mais très peu fiable, utilisé dans le streaming vidéo ou protocoles de découvertes).
+3-Network : Détermination du chemin optimal pour l'acheminement des données par deux protocol : OSPF(Open Shortest Path First), RIP(Routing Information Protocol).
+2-Data Link : Adressage physique de la transmission.
+1-Physical : Échange des données par signaux électriques selon un système binaire à travers les composants physique du matériel du réseau.
+
+## Application en entreprise
+Les équipes IT utilisent le modèle OSI pour isoler un problème (ex. câble défectueux → couche 1, erreur d’adressage → couche 3, problème applicatif → couche 7).
+Lorsqu’une alerte est déclenchée, les analystes SOC s’appuient sur le modèle OSI pour comprendre à quelle couche se situe l’activité suspecte (scan réseau, attaque DDoS, exploitation applicative, etc.).
+Le modèle OSI aide à mettre en place une défense en profondeur, en répartissant les mécanismes de sécurité sur plusieurs couches.
+Ainsi, la maîtrise du modèle OSI est indispensable pour tout ingénieur réseau ou cybersécurité, car elle permet d’analyser, de sécuriser et d’optimiser les communications dans un système d’information professionnel.
