@@ -15,8 +15,11 @@ L'objectif est de démontrer ma méthodologie, ma compréhension des concepts et
 -Penetration tester
 -Security Engineer
 #Certificate
+-eJPT
 -Junior Penetration tester certificate
 -Security Analyst Level 1 certificate
+-CompTIA Security+
+-CCNA
 -Google Cybersécurité Certificat Professionnel
 -Microsoft Certified : Expert Architecte en Cybersécurité
 
