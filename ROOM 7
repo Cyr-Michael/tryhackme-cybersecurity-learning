@@ -1,0 +1,27 @@
+# PACKETS & FRAMES
+
+## Objectifs
+Comprendre comment les données sont divisées en plus petits morceaux et transmises sur un réseau vers un autre appareil
+
+## Concepts appris
+- Packets
+- Frames
+- Encapsulation des données
+- Protocoles de transmissions de données
+
+## Ce que j'ai compris
+Les packets et frames sont de petits éléments de données qui une fois assemblés forment un message ou une information plus longue.
+En référence à la salle précédente qui abordait le modèle OSI, un packets est un élément de données de la couche 3 contenant des informations telles qu'une en-tête IP alors qu'une frames est utilisée à la couche 2,
+elle encapsule le packets et y ajoute des informations supplémentaires telles que les adresses MAC : c'est l'encapsulation.
+Comme vu au cours de la salle précédente on dispose de deux protocole de transfert de données sur un réseau.
+Le protocole TCP qui est un modèle simplifié du modèle OSI avec 4 couches : Application, Transport, Internet, Network Interface. Il s'assure de l'établissement d'une liaison entre deux appareil lorsqu'il y a un transfert 
+de données qui s'éffectuent entre ces deux appareils par la procdédure suivante :
+-SYN : packets initial envoyé par un périphérique lors de la prise de contact, il permet d'établir une connexion et de synchroniser les deux périphériques en jeu.
+-SYN/ACK : packets envoyé par le périphérique de réception pour accuser réception de la tentative de synchronisation.
+-ACK : Confirmation de la liaison
+-Envoie des données
+-Fermeture de la connexion
+Le protocole UDP quant à lui ne nécessite pas une connexion permanente entre les deux appareils.
+
+## Application en entreprise
+Les équipes réseau et sécurité analysent les échanges de packets et de frames afin d’identifier des pertes de paquets, des erreurs de transmission ou des comportements anormaux.
