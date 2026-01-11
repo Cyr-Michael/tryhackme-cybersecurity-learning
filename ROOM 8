@@ -1,0 +1,34 @@
+# ÉTENDRE UN RÉSEAU
+
+## Objectifs
+Découverte de certaines des technologies utilisées pour étendre les réseaux sur Internet et les motivations qui sous-tendent cette extension.
+
+## Concepts appris
+-Transfert de port
+-Pare-feu
+-VPN
+-Routeur
+-Commutateur
+-VLAN
+
+## Ce que j'ai compris
+La redirection de ports est un procédé qui permet de rendre accessible les applications et services via internet aux périphériques n'appartennant pas au même réseau. Elle est configuré au niveau des routeur du réseau.
+Dans le cas contraire ou le réseau n'est pas accessible via internet on parle d'un Intranet.
+Un pare-feu est un dispositif au sein d'un réseau qui régis le trafic sortant et entrant d'un réseau.Il constitue une barrière de sécurité pour un réseau. Ils peuvent être des équipements matériels dédiés ou des logiciels
+tel que SNORT.
+Un VPN (Virtual Private Network) est une technologie qui permet à deux périphériques appartenant à des réseaux distincts d'établir une liaison sécurisé dédié entre eux via internet en formant leur propre réseau privé.
+Il permet aussi de connecter des réseaux situés dans différentes zones géographique, favorise la confidentialité et l'anonymat. Au cours de cette salle j'ai pris connaissance de trois technologie VPN:
+-PPP : Permet l'authentifiaction et le chiffrement des données
+-PPTP : Protocole permettant le déplacement des données hors du réseau
+-IPSec : Chiffrement des données en utilisant le protocole Internet
+Un routeur connecte des réseaux et fait transiter des données entre eux grâce au routage. Il dispose d'une interface interactive qui permet à un administrateur de configurer diverses règles telles que la redirection de ports
+ou le pare-feu. Tandis qu'un commutateur permet de connecter plusieurs appareils grâce à des câbles ethernet.
+La technologie VLAN (Virtuel Local Area Network) est un procédé de renforcement de sécurité par séparation virtuelle des périphériques d'un réseau.
+
+## Travaux Pratiques
+Au cours de cette salle j'au eu comme tâche la configuration d'un pare-feu pour bloquer les packets provenant d'une adresse IP vers une autre par le port 80 et l'envoie d'un packets TCP sur un réseau pour observer en direct
+la procédure d'envoie d'un paackets TCP.
+
+## Application en entreprise
+La maîtrise de ces concepts permet de contribuer efficacement à la conception d’architectures réseau sécurisées, à la gestion des accès et à la protection des infrastructures dans un environnement professionnel.
+
