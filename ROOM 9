@@ -1,0 +1,40 @@
+# DNS (Domain Name System)
+
+## Objectifs
+Découverte du fonctionnement du DNS et comment il permet d'accéder aux services Internet.
+
+## Concepts appris
+-DNS
+-Nom de domaine
+-Sous-domaine
+-Type d'enregistrement de DNS
+
+## Commandes utilisées
+-nslookup
+Format d'utilisation :
+nslookup  --type=type de DNS website
+
+## Ce que j'ai compris
+Le DNS offre un moyen simple de communiquer avec les appareils sur internet sans avoir à mémoriser leur adresse IP.
+Un domaine est hierarchisé en trois :
+-TLD (Top-Level Domain) : Il s'agit de l'extention d'un nom de domaine divisé en deux types : gTLD (traduisant la finalité du nom de domaine) et ccTLD (traduisant la situation géographique)
+-Second-Level Domain : il s'agit de la chaîne de caractères précédent le TLD régis par un certains nombres de règles.
+Et il existe également les sous-domaine qui sont régis par les même règles que les Second-level Domain.
+Le DNS dispose de cinq types d'enregistrement :
+-Un record : qui permet de récupérer une adresse IP de version IPv4
+-AAAA record : dans ce cas des adresses IP de version IPv6
+-CNAME : permet de déterminer le nom de domaine vers lequel pointe un site
+-MX Record : stocke les adresses des serveurs qui gèrent les e-mails pour le domaine interrogé et incluent dans sa réponse un indicateur de priorité
+-TXT Record : Champs de texte libre pouvant contenir des données textuelles.
+Une requête DNS suit un trajet précis :
+1- Ordinateur : vérification du cache local du périphérique à la recherche du nom de domaine chercher
+2-Recursive DNS server : fourni par le FAI, il dispose d'un cache local des noms de domaine récémment consultés
+3-Root DNS server : redirige vers le serveur de domaine de premier niveau approprié en fonction de la requête
+4-Authoritative DNS Server : responsable du stockage des enregistrements DNS  d'un nom de domaine
+
+## Travaux Pratiques
+Envoi de requête DNS pour tester les différents enregistrements et utilisation de la commande nslookup qui permet de consulter les enregistrements d'un domaine données facilitant ainsi les problèmes de dépannage de DNS?
+Test de la commande hors du labo TryHackMe dans le terminale de windows.
+
+## Application en entreprise
+Résolution de sproblèmes de dépannage de DNS pour le nom de domaine de l'organisation par utilisation de la commande nslookup et des différents type d'enregistrement de DNS.
