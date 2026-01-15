@@ -1,0 +1,37 @@
+# HTTP (HYPERTEXT TRANSFER PROTOCOL)
+
+
+## Objectifs
+Découverte de comment demander du contenu à un serveur web en utilisant le protocole HTTP.
+
+## Concepts appris
+-HTTP
+-HTTPS
+-URL
+-Requête HTTP
+-Méthodes HTTP
+-Code d'états
+-En-têtes
+-Réponses
+-Cookies
+
+## Ce que j'ai compris
+Utilisé à chaque fois qu'un site web est consulté le protocole HTTP représente l'ensemble des règles utilisées pour communiquer avec les serveurs web afin de transmettre les données des pages web. Il possède une version
+sécurisé appelé HTTPS. L'URL quant à lui est une instruction permettant d'accéder à une ressource sur internet, constitué de :
+-Schema : Protocole à utiliser
+-Utilisateur : pour des ressources nécéssitant une authentification
+-Hôte : nom de domaine ou adresse IP du serveur
+-Port : port de connexionau serveur 
+-Chemin d'accès : nom ou emplacement de la ressource requêté
+-Chaîne de requête : information supplémentaire pouvant être envoyé
+-fragment : référence à un emplacement précis sur la page demandé 
+Une requête HTTP est envoyé par les navigateurs aux serveurs web afin d'obtenir des ressources en utilisant les méthodes pour indiquer l'action à éffectuer.
+Voici quelques exemples de méthodes :
+-Requête GET : sert à obtenir des informations à partir d'un serveur web
+-Requête POST : Utilisé pour soumettre des données au serveur web et potentiellement creer de nouveaux enregistrements
+-Requête PUT : utilisé pour soumettre des données à un serveur web afin de mettre à jour les informations
+-Requête DELETE : sert à supprimer des informations d'un serveur web
+A la fin de cette salle j'ai pu tester dans une labs TryHackMe les différentes requêtes HTTP et les réponses obtenues dans chaque cas .
+
+## Application en entreprise
+Les travaux pratiques réalisés permettent de comprendre le fonctionnement réel des échanges client-serveur, compétence indispensable pour intervenir sur des applications web sécurisées en environnement professionnel.
